@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { AnimatedBackground } from "@/components/animated-background";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,9 +54,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
         <ThemeProvider>
+          <AnimatedBackground />
           <div className="relative flex min-h-screen flex-col">
             <Navbar />
             <main className="flex-1">{children}</main>

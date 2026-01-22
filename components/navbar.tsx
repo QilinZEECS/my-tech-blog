@@ -3,19 +3,24 @@ import { ThemeToggle } from "./theme-toggle";
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="mx-auto flex h-14 max-w-3xl items-center justify-between px-4">
-        <Link href="/" className="font-semibold">
-          My Tech Blog
-        </Link>
-        <nav className="flex items-center gap-6">
+    <header className="sticky top-0 z-50 w-full">
+      <div className="mx-auto max-w-6xl px-4 py-4">
+        <nav className="glass noise relative flex h-14 items-center justify-between rounded-2xl px-6">
           <Link
             href="/"
-            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            className="bg-gradient-to-r from-primary to-accent bg-clip-text text-lg font-bold text-transparent"
           >
-            Home
+            My Tech Blog
           </Link>
-          <ThemeToggle />
+          <div className="flex items-center gap-4">
+            <Link
+              href="/"
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              Home
+            </Link>
+            <ThemeToggle />
+          </div>
         </nav>
       </div>
     </header>
