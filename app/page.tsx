@@ -21,16 +21,14 @@ export default function Home() {
                   Hi, I'm Qilin 👋
                 </span>
                 <h1 className="mb-4 bg-gradient-to-br from-foreground via-foreground to-muted-foreground bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-5xl">
-                  Exploring the Art of
+                  Qilin's
                   <br />
                   <span className="bg-gradient-to-r from-primary to-accent bg-clip-text">
-                    Software Engineering
+                    Digital Garden
                   </span>
                 </h1>
                 <p className="max-w-lg text-muted-foreground">
-                  Welcome to my digital garden where I share insights on
-                  technology, software development, and the craft of building
-                  elegant solutions.
+                  代码、想法、和一些有意思的东西。
                 </p>
               </div>
               <div className="mt-8 flex gap-4">
