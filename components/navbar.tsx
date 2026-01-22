@@ -10,7 +10,7 @@ export function Navbar() {
             href="/"
             className="bg-gradient-to-r from-primary to-accent bg-clip-text text-lg font-bold text-transparent"
           >
-            My Tech Blog
+            Qilin's Blog
           </Link>
           <div className="flex items-center gap-4">
             <Link

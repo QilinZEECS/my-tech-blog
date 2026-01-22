@@ -18,7 +18,7 @@ export default function Home() {
             <GlassCard className="flex h-full flex-col justify-between">
               <div>
                 <span className="mb-4 inline-block rounded-full bg-primary/20 px-3 py-1 text-xs font-medium text-primary">
-                  Welcome
+                  Hi, I'm Qilin 👋
                 </span>
                 <h1 className="mb-4 bg-gradient-to-br from-foreground via-foreground to-muted-foreground bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-5xl">
                   Exploring the Art of
@@ -28,9 +28,9 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="max-w-lg text-muted-foreground">
-                  A personal space where I share insights on technology,
-                  software development, and the craft of building elegant
-                  solutions.
+                  Welcome to my digital garden where I share insights on
+                  technology, software development, and the craft of building
+                  elegant solutions.
                 </p>
               </div>
               <div className="mt-8 flex gap-4">

@@ -21,24 +21,33 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://example.com";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "My Tech Blog",
-    template: "%s | My Tech Blog",
+    default: "Qilin's Blog",
+    template: "%s | Qilin's Blog",
   },
-  description: "A personal blog about technology and software development",
-  keywords: ["blog", "technology", "software development", "programming"],
-  authors: [{ name: "My Tech Blog" }],
+  description:
+    "Qilin's personal blog about technology, software development, and creative coding",
+  keywords: [
+    "Qilin",
+    "blog",
+    "technology",
+    "software development",
+    "programming",
+  ],
+  authors: [{ name: "Qilin" }],
   openGraph: {
     type: "website",
     locale: "en_US",
     url: BASE_URL,
-    siteName: "My Tech Blog",
-    title: "My Tech Blog",
-    description: "A personal blog about technology and software development",
+    siteName: "Qilin's Blog",
+    title: "Qilin's Blog",
+    description:
+      "Qilin's personal blog about technology, software development, and creative coding",
   },
   twitter: {
     card: "summary_large_image",
-    title: "My Tech Blog",
-    description: "A personal blog about technology and software development",
+    title: "Qilin's Blog",
+    description:
+      "Qilin's personal blog about technology, software development, and creative coding",
   },
   robots: {
     index: true,
