@@ -1,6 +1,11 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://example.com";
+export const dynamic = "force-static";
+
+const BASE_URL =
+  process.env.GITHUB_PAGES === "true"
+    ? "https://qilinzeecs.github.io/my-tech-blog"
+    : process.env.NEXT_PUBLIC_BASE_URL || "https://example.com";
 
 export default function robots(): MetadataRoute.Robots {
   return {
